@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/bridge.jpg);
+}
+
+h1 {
+  color: white;
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Pacifico', cursive;
+  text-align:center;
+  /*background-color:DodgerBlue; */
+  font-size:100px;
+}
+
+
+/* Verwirrt mich gerade zu sehr, gehen das mal langsam an.
+#textbox {
+   font-family: 'Ubuntu Condensed', sans-serif;
+  text-align:center;
+  height: 200px;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 500px;
+  background-color: white;
+  width: 300px;s
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+} */
+
+#title{
+  background-color: white;
+
+
+
+}
+
+#content{
+  background-color: white;
+  margin: auto;
+  padding: 20px 75px 50px 50px; /* top right bottom left */
+  padding: 25px 50px 75px 100px;
+}
