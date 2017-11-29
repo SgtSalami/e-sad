@@ -1,54 +1,32 @@
-body {
+body{
     background-image: url(../img/bridge.jpg);
+    background-attachment: fixed; /*Inhalte Scrollen, bg nicht*/
 }
 
-h1 {
+h1{
   color: white;
-  /*font-family: 'Anton', sans-serif;*/
   font-family: 'Pacifico', cursive;
-  text-shadow: 5px 3px pink;
+  text-shadow: 5px 3px #ffcc99;
   text-align:center;
-  /*background-color:DodgerBlue; */
   font-size:100px;
 }
 
 
-/* Verwirrt mich gerade zu sehr, gehen das mal langsam an.
-#textbox {
-   font-family: 'Ubuntu Condensed', sans-serif;
-  text-align:center;
-  height: 200px;
-  width: 50%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 500px;
+#mitte{
+  text-align: justify;
   background-color: white;
-  width: 300px;s
-  border: 25px solid green;
-  padding: 25px;
-  margin: 25px;
-} */
-
-
-#navbar{
-  color: white;
-  text-align: center;
-  background-color: pink;
-  width: 250px;
-  height: 50px;
-  margin: auto;
-  padding: 25px 150px 50px 150px; /* top right bottom left */
+  width: 550px;
+  height: 550px;
+  margin: 10px auto 10px auto;
+  padding: 30px 20px 10px 20px; /* top right bottom left*/
   border-radius: 15px;
 }
 
+#side{
+  text-align: left;
+  background-color: #ffe6ff;
+  width: 100px;
+  height: 600px;
+  margin-right: 600px;
 
-
-#content{
-  background-color: white;
-  width: 250px;
-  height: 250px;
-  margin: 20px auto 50px auto;
-  padding: 50px 150px 50px 150px; /* top right bottom left */
-  border-radius: 25px;
 }
